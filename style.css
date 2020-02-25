@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+/*Start css of Navbar */
+.navbar{
+    position: sticky;
+    overflow: hidden;
+}
+.navbar .navbar-brand{
+    font-family: 'Lobster';
+    font-size: 40px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin-left: 20px;
+
+}
+.navbar-collapse{
+    margin-left: 20px;
+    overflow: hidden;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+/*
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: red;
+}*/
+
+a.text-light:focus, a.text-light:hover {
+    color: rgb(214, 146, 45);
+    border-bottom: 2px solid rgb(190, 190, 190);
+
+}
+@media only screen and (min-width: 992px) {
+    .navbar-collapse{
+        margin-left: 51%;
+    }
+}
+
+
+/*start css of header area */
+.header-banner{
+    background-image: url('images/header-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+.col-md-5 h3{
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-top: 10px;
+    
+}
+.col-md-5 h1{
+    color: red;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 45px;
+    text-transform: capitalize;
+    padding-top: 15px;
+
+}
+.col-md-5 p{
+    font-size: 20px;
+    text-align: justify;
+    color: grey;
+    text-transform: capitalize;
+    padding-top: 15px;
+}
+.middle-banner{
+    background-image: url('images/biography-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+.button{
+    padding: 10px 20px;
+    margin-top: 30px;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #ffffff;
+    background-image: linear-gradient(180deg, rgb(250, 153, 7), red);
+    border: none;
+    border-radius: 10px;
+}
+.latest-work{
+    margin-left: 10%;
+    overflow: hidden;
+
+}
+.col-md-12 h1{
+    background-color: darkcyan;
+    padding: 15px;
+    color: #ffffff;
+    border-right: 7px solid orange;
+    border-left: 7px solid orange;
+    border-radius: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 28px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+@media only screen and (min-width: 992px) {
+    .col-md-12 h1{
+        width: 500px;
+        margin-left: 30%;
+
+        
+    }
+}
+.latest-banner{
+    background-image: url('images/footer-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+.latest-banner .row{
+    margin-top: 30px ;
+}
+.client{
+    text-align: center;
+    margin-top: 100px;
+    overflow: hidden;
+
+}
+.client h1{
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.client h5{
+    margin-top: 50px;
+    font-size: 20px;
+    font-style: italic;
+}
+.client h3{
+    font-size: 22px;
+    color: darkgray;
+    margin-top: 15px;
+}
+.client p{
+    font-size: 16px;
+    color: #000000;
+}
+.contact-banner{
+    padding: 50px;
+    background-color: red;
+    margin-top: 20px;
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+  
+}
+.contact-banner h3{
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.contact-banner h4{
+    color: #ffffff;
+    margin-top: 20px;
+    font-weight: bold;
+}
+@media only screen and (min-width: 992px) {
+
+    .contact-banner{
+        width: 85%;
+        margin-left: 9%;
+    }
+    .contact-banner h3{
+        font-size: 40px;
+    }
+}
+.footer{
+    overflow: hidden;
+
+}
+.footer p{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer a{
+    text-decoration: none;
+    color: red;
+}
+
+@media screen and (max-width: 375px){
+    .contact-banner h3{
+        font-size: 18px;
+    }
+    .footer p{
+        font-size: 15px;
+    }
+}
